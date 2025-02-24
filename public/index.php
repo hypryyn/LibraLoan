@@ -15,3 +15,8 @@ require __DIR__.'/../vendor/autoload.php';
 // Bootstrap Laravel and handle the request...
 (require_once __DIR__.'/../bootstrap/app.php')
     ->handleRequest(Request::capture());
+
+    // Ensure the /tmp/bootstrap_cache directory exists
+if (!is_dir('/tmp/bootstrap_cache')) {
+    mkdir('/tmp/bootstrap_cache', 0755, true);
+}

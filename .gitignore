@@ -56,3 +56,6 @@ yarn-error.log
 
 # SQLite database file (if used)
 database/database.sqlite
+
+
+.vercel

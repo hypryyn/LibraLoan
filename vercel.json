@@ -32,7 +32,11 @@
         "SESSION_DRIVER": "cookie",
 
         "DB_CONNECTION": "mysql",
+        "MYSQL_ATTR_SSL_CA": "/etc/pki/tls/certs/ca-bundle.crt",
+        "DB_HOST": "b53jpdil2idqp8dkvao5-mysql.services.clever-cloud.com",
         "DB_PORT": "3306",
-        "MYSQL_ATTR_SSL_CA": "/etc/pki/tls/certs/ca-bundle.crt"
+        "DB_DATABASE": "b53jpdil2idqp8dkvao5",
+        "DB_USERNAME": "u26ghnbzu59ouz0a",
+        "DB_PASSWORD": "CuMk7qB2d8GYEAF2mnLl"
     }
 }

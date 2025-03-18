@@ -32,7 +32,7 @@
         "SESSION_DRIVER": "cookie",
 
         "DB_CONNECTION": "mysql",
-        "MYSQL_ATTR_SSL_CA": "/etc/pki/tls/certs/ca-bundle.crt",
+        "MYSQL_ATTR_SSL_CA": "true",
         "DB_HOST": "b53jpdil2idqp8dkvao5-mysql.services.clever-cloud.com",
         "DB_PORT": "3306",
         "DB_DATABASE": "b53jpdil2idqp8dkvao5",
